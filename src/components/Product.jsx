@@ -1,11 +1,12 @@
 import React from 'react';
 import { FaRegStar } from 'react-icons/fa6';
+import { Link } from 'react-router-dom';
 
 const Product = ({ product }) => {
-    const { name, image, category, price, rating } = product;
+    const { id, name, image, category, price, rating } = product;
     return (
         <div className='mx-auto'>
-            <div className="card bg-base-100 w-full md:w-72 shadow-sm">
+            <div className="card bg-base-100 w-full md:w-72 shadow-sm transform transition duration-300 hover:scale-105">
                 <figure>
                     <div className='relative'>
                         <img
@@ -23,7 +24,7 @@ const Product = ({ product }) => {
                         <span className='flex items-center gap-1 font-semibold text-lg'>{rating} <FaRegStar size={18} /></span>
                     </div>
                     <div className="card-actions justify-center">
-                        <button className="btn btn-neutral px-12">See Details</button>
+                        <Link to={`/products/${id}`} className="btn btn-neutral px-12">See Details</Link>
                     </div>
                 </div>
             </div>
