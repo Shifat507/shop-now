@@ -1,0 +1,162 @@
+[
+  {
+    "id": 1,
+    "name": "Classic White T-Shirt",
+    "image": "https://i.ibb.co/998zqg64/Classic-White-T-Shirt-Photoroom.jpg",
+    "description": "100% cotton white t-shirt with a relaxed fit.",
+    "category": "clothing",
+    "price": 19.99,
+    "stock": 120,
+    "rating": 4.5
+  },
+  {
+    "id": 2,
+    "name": "Bluetooth Headphones",
+    "image": "https://i.ibb.co/2LwQHFX/JBL-Tune-720-BT-Wireless-Photoroom.jpg",
+    "description": "Noise-cancelling over-ear headphones with 20hr battery.",
+    "category": "electronics",
+    "price": 89.99,
+    "stock": 35,
+    "rating": 5
+  },
+  {
+    "id": 3,
+    "name": "Leather Messenger Bag",
+    "image": "https://i.ibb.co/0ptZtYX1/Leather-Messenger-Bag-Photoroom.jpg",
+    "description": "Premium leather bag for work and travel.",
+    "category": "bags",
+    "price": 149.99,
+    "stock": 22,
+    "rating": 4.7
+  },
+  {
+    "id": 4,
+    "name": "Running Shoes",
+    "image": "https://i.ibb.co/N2r0gWGp/New-Soft-Sole-Shoes-Shock-Absorbing-Running-Shoes-Mesh-Breathable-Running-Shoes-Photoroom.jpg",
+    "description": "Breathable running shoes with flexible soles.",
+    "category": "shoes",
+    "price": 59.99,
+    "stock": 50,
+    "rating": 4.2
+  },
+  {
+    "id": 5,
+    "name": "Smartwatch Series 5",
+    "image": "https://i.ibb.co/cc2Fwy79/Smartwatch-Photoroom.jpg",
+    "description": "Water-resistant smartwatch with health tracking.",
+    "category": "electronics",
+    "price": 199.99,
+    "stock": 15,
+    "rating": 4.8
+  },
+  {
+    "id": 6,
+    "name": "Denim Jacket",
+    "image": "https://i.ibb.co/BkMxyXf/Denim-Jacket-Photoroom.jpg",
+    "description": "Classic blue denim jacket with a modern cut.",
+    "category": "clothing",
+    "price": 79.99,
+    "stock": 40,
+    "rating": 4.3
+  },
+  {
+    "id": 7,
+    "name": "Canvas Tote Bag",
+    "image": "https://i.ibb.co/fdD9rzNK/Canvas-Leather-Tote-Bag-Handcrafted-Canvas-Shoulder-Bags-Canvas-And-Full-Grain-Leather-Shopper-Bag-1.jpg",
+    "description": "Eco-friendly canvas bag with inner pockets.",
+    "category": "bags",
+    "price": 24.99,
+    "stock": 60,
+    "rating": 4.6
+  },
+  {
+    "id": 8,
+    "name": "True Wireless Earbuds",
+    "image": "https://i.ibb.co/v4CHjMYT/JBL-Vibe-Beam-True-Wireless-Earbuds-Photoroom.jpg",
+    "description": "Compact true wireless earbuds with noise isolation, touch controls, and a charging case.",
+    "category": "electronics",
+    "price": 49.99,
+    "stock": 42,
+    "rating": 4.4
+  },
+  {
+    "id": 9,
+    "name": "Cotton Hoodie",
+    "image": "https://i.ibb.co/qYYjv2qJ/Cotton-Hoodie-Photoroom.jpg",
+    "description": "Comfortable unisex hoodie with front pocket.",
+    "category": "clothing",
+    "price": 39.99,
+    "stock": 75,
+    "rating": 4.5
+  },
+  {
+    "id": 10,
+    "name": "Wireless Mouse",
+    "image": "https://i.ibb.co/WWnGPDqH/Keyboard-Mousse-Photoroom.jpg",
+    "description": "Ergonomic wireless mouse with adjustable DPI.",
+    "category": "electronics",
+    "price": 29.99,
+    "stock": 45,
+    "rating": 4.1
+  },
+  {
+    "id": 11,
+    "name": "Slim Laptop Backpack",
+    "image": "https://i.ibb.co/S4BDQhmB/Women-s-Leather-Everyday-Laptop-Backpack-Samsonite-Photoroom.jpg",
+    "description": "Waterproof slim backpack for 15\" laptops.",
+    "category": "bags",
+    "price": 59.99,
+    "stock": 38,
+    "rating": 4.6
+  },
+  {
+    "id": 12,
+    "name": "Men’s Shoes",
+    "image": "https://i.ibb.co/5W5yPH3D/black-shoe-Photoroom.jpg",
+    "description": "Polished leather dress shoes for formal occasions.",
+    "category": "shoes",
+    "price": 89.99,
+    "stock": 20,
+    "rating": 4.7
+  },
+  {
+    "id": 13,
+    "name": "Graphic Tee",
+    "image": "https://i.ibb.co/3y4Lnzqx/Graphic-Tee-Photoroom.jpg",
+    "description": "Trendy tee with printed artwork.",
+    "category": "clothing",
+    "price": 22.99,
+    "stock": 100,
+    "rating": 4.3
+  },
+  {
+    "id": 14,
+    "name": "Bluetooth Speaker",
+    "image": "https://i.ibb.co/gLzTFnfg/Mania-95-d-B-wireless-speaker-Photoroom.jpg",
+    "description": "Compact speaker with deep bass and wireless range.",
+    "category": "electronics",
+    "price": 59.99,
+    "stock": 25,
+    "rating": 4.9
+  },
+  {
+    "id": 15,
+    "name": "Mini Crossbody Bag",
+    "image": "https://i.ibb.co/Z6Qkt90Q/Mini-Crossbody-Bag-Photoroom.jpg",
+    "description": "Small, stylish crossbody bag with gold accents.",
+    "category": "bags",
+    "price": 34.99,
+    "stock": 45,
+    "rating": 4.4
+  },
+  {
+    "id": 16,
+    "name": "Sneakers",
+    "image": "https://i.ibb.co/mCNFd1D5/sneakers-Photoroom.jpg",
+    "description": "Everyday sneakers with cushioned soles and classic design.",
+    "category": "shoes",
+    "price": 64.99,
+    "stock": 55,
+    "rating": 4.2
+  }
+]

@@ -1,11 +1,12 @@
 import React from 'react';
 import { FaCartShopping } from 'react-icons/fa6';
+import { NavLink } from 'react-router-dom';
 
 const Navbar = () => {
     const links = <>
-        <li><a>Home</a></li>
-        <li><a>All Products</a></li>
-        <li><a>About Us</a></li>
+        <li><NavLink to='/'>Home</NavLink></li>
+        <li><NavLink to='/allProducts'>All Products</NavLink></li>
+        <li><NavLink to='/aboutUs'>About Us</NavLink></li>
         
     </>
     return (
