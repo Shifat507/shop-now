@@ -1,6 +1,6 @@
 import React from 'react';
 import { FaCartShopping } from 'react-icons/fa6';
-import { NavLink } from 'react-router-dom';
+import { Link, NavLink } from 'react-router-dom';
 
 const Navbar = () => {
     const links = <>
@@ -30,7 +30,7 @@ const Navbar = () => {
                 </ul>
             </div>
             <div className="navbar-end">
-                <a className="btn"><FaCartShopping size={25}/></a>
+                <Link to='/cart' className="btn"><FaCartShopping size={25}/></Link>
             </div>
         </div>
     );
