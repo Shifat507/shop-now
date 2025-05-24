@@ -7,7 +7,7 @@ import Swal from 'sweetalert2';
 const ProductDetails = () => {
     const { id } = useParams();
     const data = useLoaderData();
-    console.log(id, data);
+    // console.log(id, data);
     const product = data.find(product => product.id == id)
     const { name, image, description, category, price, stock, rating } = product;
     const navigate =  useNavigate();
@@ -27,10 +27,10 @@ const ProductDetails = () => {
                 <div className="hero-content flex-col md:gap-10 lg:flex-row">
                     <img
                         src={image}
-                        className="max-w-sm rounded-lg shadow-2xl"
+                        className="max-w-3xs md:max-w-sm rounded-lg shadow-2xl"
                     />
                     <div>
-                        <h1 className="text-5xl font-bold">{name}</h1>
+                        <h1 className="text-xl md:text-5xl font-bold">{name}</h1>
                         <div className="badge badge-neutral badge-outline mt-3">{category}</div>
                         <p className="py-2">
                             {description}
