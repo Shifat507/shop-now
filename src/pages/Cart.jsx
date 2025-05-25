@@ -51,11 +51,11 @@ const Cart = () => {
     }, [cartItems])
 
     return (
-        <div className=''>
-            <div className='mt-10 mb-16 md:w-3/4'>
+        <div className='w-full'>
+            <div className='mt-10 mb-16 md:w-4/5 mx-auto'>
                 {
                     (cartItems.length > 0) ? <div>
-                        <h2 className='text-lg md:text-3xl font-bold w-full'>All Items</h2>
+                        <h2 className='text-lg md:text-3xl text-center font-bold w-full'>All Items</h2>
 
                         <div className="overflow-x-auto">
                             <table className="table">
@@ -97,20 +97,20 @@ const Cart = () => {
                                 </tbody>
                             </table>
                             <hr />
-                            <div className='flex justify-between w-2/3 md:ml-16 mt-2'>
+                            <div className='flex justify-between w-full md:w-2/3 md:ml-16 mt-2'>
                                 <p className='text-lg font-semibold'>Product Price
                                     <span className='ps-4 text-lg text-gray-600'> | QTY: {cartItems.length}</span>
                                 </p>
                                 <p className='text-lg font-semibold'>{price} Tk</p>
                             </div>
-                            <div className='flex justify-between w-2/3 md:ml-16 my-2'>
+                            <div className='flex justify-between w-full md:w-2/3 md:ml-16 my-2'>
                                 <p className='text-lg font-semibold'>Delivery Charge
 
                                 </p>
                                 <p className='text-lg font-semibold'>100 Tk</p>
                             </div>
                             <hr />
-                            <div className='flex justify-between w-2/3 md:ml-16 my-2'>
+                            <div className='flex justify-between w-full md:w-2/3 md:ml-16 my-2'>
                                 <p className='text-lg font-semibold'>Total
 
                                 </p>

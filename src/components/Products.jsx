@@ -32,13 +32,13 @@ const Products = () => {
         const categoryValue = e.target.value;
         setCategory(categoryValue);
     }
-    console.log(category);
+    // console.log(category);
     useEffect(() => {
-        const categoryWiseFilter = products.filter(item => item.category === category);
+        const categoryWiseFilter = products.filter(item => item.category === category).sort((a, b) => a.price - b.price);
         setCategoryFiltered(categoryWiseFilter);
     }, [category, products])
-    console.log(category);
-    console.log(categoryFiltered);
+    // console.log(category);
+    // console.log(categoryFiltered);
 
     // Sorting Functionality
     const handleSortByPrice = () => {
@@ -62,7 +62,7 @@ const Products = () => {
         <div>
             {/* All Products */}
             <section className='mt-16'>
-                <div className='flex flex-col md:flex-row justify-between gap-y-2'>
+                <div className='flex flex-col md:flex-row justify-between gap-y-2 gap-x-3'>
                     {/* Filter by Category */}
                     <select onChange={handleCategory} value={category} className="select">
                         <option value="">All Categories</option>
@@ -72,7 +72,7 @@ const Products = () => {
                         <option value="shoes">Shoes</option>
                     </select>
 
-                    <div className='flex items-center gap-3 mb-10'>
+                    <div className='flex items-center gap-2 mb-10'>
                         {/* Searching Products */}
                         <label className="input md:w-80">
                             <svg className="h-[1em] opacity-50" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">

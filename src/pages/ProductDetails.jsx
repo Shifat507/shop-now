@@ -42,7 +42,7 @@ const ProductDetails = () => {
                         <h2 className='text-lg md:text-2xl font-semibold mt-3'>Price: {price} TK</h2>
 
                         {
-                            stock ? <button onClick={() => handleAddToCart(id)} className="btn btn-neutral mt-4 px-15">Add to Cart</button> : <button className="btn px-15" disabled="disabled">Stock Out</button>
+                            stock ? <button onClick={() => handleAddToCart(id)} className="btn btn-neutral mt-4 px-15">Add to Cart</button>  : <button className="btn px-15" disabled="disabled">Stock Out</button>
                         }
                     </div>
                 </div>
