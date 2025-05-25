@@ -1,9 +1,10 @@
 import React, { useEffect, useState } from 'react';
 import { useLoaderData } from 'react-router-dom';
-import { deleteItem, getStoredCartItems } from '../utilities/addToDB';
+// import { deleteItem, getStoredCartItems } from '../utilities/addToDB.js';
 import { RiDeleteBin6Fill } from 'react-icons/ri';
 import Swal from 'sweetalert2';
-import deliveryImg from '../assets/OthersImags/delivery.jpg'
+import { deleteItem, getStoredCartItems } from '../utilities/addToDB';
+
 
 const Cart = () => {
     const allProducts = useLoaderData();

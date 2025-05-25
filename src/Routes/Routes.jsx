@@ -27,12 +27,12 @@ export const router = createBrowserRouter([
         {
             path:'/products/:id',
             element: <ProductDetails></ProductDetails>,
-            loader: ()=> fetch('/public/productsData.json')
+            loader: ()=> fetch('productsData.json')
         },
         {
           path:'/cart',
           element: <Cart></Cart>,
-          loader: ()=> fetch('/public/productsData.json')
+          loader: ()=> fetch('productsData.json')
         },
         {
           path: '/aboutUs',

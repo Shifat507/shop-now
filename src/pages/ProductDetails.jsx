@@ -1,8 +1,9 @@
 import React from 'react';
 import { FaRegStar } from 'react-icons/fa6';
 import { useLoaderData, useNavigate, useParams } from 'react-router-dom';
-import { addToStoredCartItems } from '../utilities/addToDB';
+// import { addToStoredCartItems } from '../utilities/addToDb.js';
 import Swal from 'sweetalert2';
+import { addToStoredCartItems } from '../utilities/addToDB';
 
 const ProductDetails = () => {
     const { id } = useParams();
